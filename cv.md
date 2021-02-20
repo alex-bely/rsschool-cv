@@ -41,3 +41,9 @@ public static string[] Solution(string str)
     return result.ToArray();
 }
 ```
+
+## Work experience
+
+### I participated in two projects. The first one was a CRM system. I was in charge of the back-end development of some financial operations and simple DevOps automation. The main language was VB.NET as the system is pretty legacy and written with VB.NET. For DevOps routine and Task Management TFS and Azure Devops were used.
+
+### The second project is from the Legal area. It is an electronic discovery software and I participated in both back-end and front-end development. Server side was written with C#. And the UI was made with Backbone so I've used JS as the main language.
