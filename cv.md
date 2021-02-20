@@ -7,7 +7,7 @@
 
 ## About me
 
-### I am a software developer having experience in two projects. The first one was a CRM system. I was in charge of the back-end development of some financial operations and simple DevOps automation. The second project is from the Legal area. It is an electronic discovery software and I participated in both back-end and front-end development.
+### I am a software developer and my initial path was to be a back-end developer but now I'd like to be a full-stack developer. Being skilled in both ways brings more opportunities. I participated in two projects and I used to be both in back-end and front-end development. Besides I was in charge of some DevOps automation and repository maintenance.
 
 ### Besides my everyday work involved a lot of communication via different channels: emails, meetings, instant chatting. I am familiar with teamwork and cooperation.
 
