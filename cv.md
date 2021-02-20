@@ -20,3 +20,24 @@
 ### My front-end experience includes JavaScript programming using Backbone library and JQuery/Underscore.js underneath.
 
 ### Also I'm familiar with Azure Devops services: team boards, repositories, CI/CD pipelines.
+
+## Code examples
+
+Test example from [Codewars](https://www.codewars.com/)
+
+```cs
+public static string[] Solution(string str)
+{
+    var even = str.Where((x, y) => y % 2 == 0);
+    var odd = str.Where((x, y) => y % 2 != 0);
+    var result = even.Zip(odd)
+        .Select(t => string.Concat(t.First, t.Second)).ToList();
+
+    if(str.Length % 2 != 0)
+    {
+        result.Add(string.Concat(str.Last(), '_'));
+    }
+
+    return result.ToArray();
+}
+```
