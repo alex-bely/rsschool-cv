@@ -50,6 +50,11 @@ section {
   margin-bottom: 15px;
 }
 
+section > header {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
 /* Page header */
 
 .person-name {
