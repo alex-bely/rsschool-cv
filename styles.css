@@ -1,0 +1,51 @@
+/* Variables */
+:root {
+  --main-border: thick double black;
+}
+
+/* Basic tags */
+
+html {
+  background-color: white;
+}
+
+body {
+  width: 800px;
+  margin: 10px auto;
+  border: var(--main-border);
+  text-align: justify;
+  background: ghostwhite;
+  background-clip: content-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+/* Semantic tags */
+
+main {
+  display: flex;
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  font-family: 'Arial', 'sans-serif';
+}
+
+aside {
+  border-right: var(--main-border);
+  padding: 15px;
+}
+
+article {
+  padding: 15px;
+}
+
+section {
+  margin-bottom: 15px;
+}
