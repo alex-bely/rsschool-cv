@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  width: 800px;
+  max-width: 800px;
   margin: 10px auto;
   border: var(--main-border);
   text-align: justify;
@@ -52,7 +52,6 @@ section {
 
 section > header {
   font-weight: bold;
-  font-size: 1.3rem;
 }
 
 aside section > header {
@@ -61,7 +60,8 @@ aside section > header {
 
 /* Page header */
 
-.person-name {
+.person-name,
+.person-position {
   text-align: center;
 }
 
