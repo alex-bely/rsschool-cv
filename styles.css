@@ -22,6 +22,10 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  margin: 5px 0;
+}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -30,19 +34,12 @@ ul {
 
 /* Semantic tags */
 
-main {
-  display: flex;
-  border-bottom: var(--main-border);
-  border-top: var(--main-border);
-  font-family: 'Arial', 'sans-serif';
-}
-
 aside {
   border-right: var(--main-border);
   padding: 15px;
 }
 
-article {
+main {
   padding: 15px;
 }
 
@@ -50,11 +47,7 @@ section {
   margin-bottom: 15px;
 }
 
-section > header {
-  font-weight: bold;
-}
-
-aside section > header {
+aside section > h3 {
   text-align: center;
 }
 
@@ -107,7 +100,14 @@ aside section > header {
   margin-bottom: 5px;
 }
 
-/* Article content */
+/* Main content */
+
+.content {
+  display: flex;
+  border-bottom: var(--main-border);
+  border-top: var(--main-border);
+  font-family: 'Arial', 'sans-serif';
+}
 
 .education-list p,
 .career-list p {
@@ -123,4 +123,3 @@ aside section > header {
 .profile {
   margin-top: 5px;
 }
-
