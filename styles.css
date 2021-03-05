@@ -83,3 +83,26 @@ aside section > header {
 
 /* Aside content*/
 
+.contacts-list > li,
+.languages-list > li,
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.contacts-list img {
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.contacts-list li:last-child img {
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.skills-list > li,
+.languages-list > li {
+  margin-bottom: 5px;
+}
