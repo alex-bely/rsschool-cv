@@ -106,3 +106,21 @@ aside section > header {
 .languages-list > li {
   margin-bottom: 5px;
 }
+
+/* Article content */
+
+.education-list p,
+.career-list p {
+  font-style: italic;
+  margin: 0;
+}
+
+.education-list > li,
+.career-list > li {
+  margin-bottom: 15px;
+}
+
+.profile {
+  margin-top: 5px;
+}
+
